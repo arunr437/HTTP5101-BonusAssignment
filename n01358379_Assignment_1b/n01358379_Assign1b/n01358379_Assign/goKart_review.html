@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Go Kart Review</title>
+    <link rel="stylesheet" type="text/css" href="/Content/ReviewStyle.css" />
+</head>
+<body>
+    <!-- go kart form using webforms-->
+    <form method="GET" action="https://postman-echo.com/get">
+        <main>
+            <h1>401 Mini-Indy GO Karts</h1>
+            <h3>Please enter your details!</h3>
+            <section>
+                <div>
+                    <label>First name:</label>
+                    <input type="text" id="customer_first_name" name="customer_first_name" />
+                </div>
+                <div>
+                    <label>Last name:</label>
+                    <input type="text" id="customer_last_name" name="customer_last_name" />
+                </div>
+                <div>
+                    <label>Contact number:</label>
+                    <input type="text" id="customer_contact_numer" name="customer_contact_number" />
+                </div>
+                <div>
+                    <label>Age:(0-99)</label>
+                    <input type="text" id="customer_age" name="customer_age" />
+                </div>
+                <div>
+                    <h3>Which of our branches did you visit? </h3>
+                    <select id="gokart_branch" name="gokart_branch">
+                        <option value"">-- Select a branch! --</option>
+                        <option value="Etobicoke">Etobicoke</option>
+                        <option value="Brampton">Brampton</option>
+                        <option value="Toronto">Toronto</option>
+                        <option value="York">York</option>
+                        <option value="Mississauga">Mississauga</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Customer Feedback form</h3>
+                    <h4> How was the quality our Go Karts?</h4>
+                    <select id="customer_rating_quality" name="customer_rating_quality">
+                        <option value"">-- Select an option! --</option>
+                        <option value="3">Great</option>
+                        <option value="2">Average</option>
+                        <option value="1">Bad</option>
+                    </select>
+                </div>
+                <div>
+                    <h4> Would you recommend us to your friends/family ?(</h4>
+                    <select id="customer_rating_recommendation" name="customer_rating_recommendation">
+                        <option value"">-- Select an option! --</option>
+                        <option value="3">Yes</option>
+                        <option value="2">Not Sure</option>
+                        <option value="1">No</option>
+                    </select>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>Which type of service did you choose ?</h3>
+                    <input type="radio" value="Indoor" id="customer_service_type_1" name="customer_service_type" /><label for="customer_service_type_1">Indoor</label>
+                    <input type="radio" value="Outdoor" id="customer_service_type_2" name="customer_service_type" /><label for="customer_service_type_2">Outdoor</label>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h3>What did you like about our place ?</h3>
+                    <input type="checkbox" value="Infrastructure" id="positive_option_1" name="positive_option_1" /><label for="positive_option_1">Infrastructure</label>
+                    <input type="checkbox" value="Customer Service" id="positive_option_2" name="positive_option_2" /><label for="positive_option_1">Customer Service</label>
+                    <input type="checkbox" value="Cafeteria" id="positive_option_3" name="positive_option_3" /><label for="positive_option_3">Cafeteria</label>
+                    <input type="checkbox" value="Tariff" id="positive_option_4" name="positive_option_4" /><label for="positive_option_4">Tariff</label>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <input type="submit" value="submit" />
+                </div>
+            </section>
+        </main>
+    </form>
+</body>
+</html>
