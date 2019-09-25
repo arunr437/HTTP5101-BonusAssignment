@@ -1,14 +1,12 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="goKart_review.aspx.cs" Inherits="n01358379_Assign.goKart_review" %>
-
 <!DOCTYPE html>
-
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 	<title>Go Kart Review</title>
     <link rel="stylesheet" type="text/css" href="/Content/ReviewStyle.css" />
 </head>
 <body>
-	<!-- go kart form using webforms-->
+	<!-- go kart form using webforms!-->
 	<form runat="server">
 		<main>
 			<h1>401 Mini-Indy GO Karts</h1>
