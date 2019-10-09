@@ -1,0 +1,17 @@
+﻿.day {
+    width:80px;
+    height:80px;
+    border:2px dotted black;
+    font-size: 20px;
+}
+
+#working {
+    background-color: green;
+}
+
+#holiday {
+    background-color: green;
+}
+#weekend {
+    color:indianred;
+}
